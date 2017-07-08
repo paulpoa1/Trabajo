@@ -1,0 +1,44 @@
+---
+title: "README"
+author: "Paul Poaquiza"
+date: "01 de juLio de 2017"
+output: html_document
+---
+
+
+## Fars Functions
+
+This a code provided by Jhon Hopkins University Especialization Course 2017
+
+When you use this functions you will be able to manipulate some accident databases from 2013, 2014 and 2015. There are five functions:
+
+- fars_read()  ::: confirm the existence of a file
+- make_filename() ::: built the name file
+- fars_read_years() ::: manipulate database
+- fars_summarize_years() ::: makes a summary of the data
+- fars_map_state()::: makes an accident map
+
+
+# README #
+
+This packages is an assigment of the Coursera course "Building R Packages". It allows mapping test data from the US National Highway Traffic Safety Administration on traffic accidents. 
+
+This repo includes
+* A DESCRIPTION and NAMESPACE file
+* an R/ folder where some R functions are stored in fars_functions.R
+* a man/ folder presenting the functions found in R/ and documented using Roxygen2
+* A vignettes/ folder including an example of running the functions in R/
+* A tests/ folder with a test of the functions output
+
+### Installation
+
+To install this package to run on your system, please first install and load the `devtools` package. Then install and load this package:
+
+```R
+install_github('paulpoa1/R')
+library(R)
+```
+
+### Vignette
+
+To get started, read the fars vignette: `vignette('fars', package = 'Building-an-R-Package')`.
